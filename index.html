@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <input id="num_input" type="number">
@@ -20,8 +21,33 @@
     <input placeholder="enter number" id="num2" type="number">
     <input placeholder="enter sign" id="user_sign" type="text">
     <button onclick="printUserResult()">Print Result</button>
+    <br>
 
+    <input placeholder="enter text" id="user_text" type="text">
+    <select id="user_size">
+        <option value="">
+            Choose font size
+            <option value="20px">20px</option>
+            <option value="40px">40px</option>
+            <option value="60px">60px</option>
+            <option value="80px">80px</option>
+        </option>
+    <input placeholder="choose color" id="user_color" type="color">
+    <button onclick="printUserText()">Print Text and color</button>
+    <h1 id="user_h1"></h1>
+    <br>
 
+    <select id="user5_corner">
+        <option value="">
+            Choose Position
+            <option value="top-left">top-left</option>
+            <option value="top-right">top-right</option>
+            <option value="bottom-left">bottom-left</option>
+            <option value="bottom-right">bottom-right</option>
+        </option>
+    <input placeholder="choose color" id="user5_color" type="color">
+    <button onclick="printDiv()">Show Element</button>
+    <div id="div_id"></div>
 
 
 
